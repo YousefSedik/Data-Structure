@@ -1,0 +1,6 @@
+Linked List Terminology:
+Head: The First Node In A Linked List
+Tail: The Last Node In A Linked List
+Pointer: Reference To another node
+node: consists of data & pointer
+ 
