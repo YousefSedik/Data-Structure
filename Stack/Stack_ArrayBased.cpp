@@ -17,7 +17,7 @@ int isempty(Stack* pt) {
     return pt->top == 0;
 }
 
-int push(StackEntry value, Stack* pt) {
+int push( Stack* pt, StackEntry value) {
     if (isfull(pt))
         return 0;
 
