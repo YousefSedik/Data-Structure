@@ -59,7 +59,7 @@ int main() {
     push(&s,12 );
     push(&s,15 );
     push(&s,163 );
-    
+
     cout << stack_size(&s);
 
 }
