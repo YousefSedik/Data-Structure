@@ -2,15 +2,8 @@
 #include "iostream"
 using namespace std;
 
-class Queue
-{
-    int *arr;
-    int capacity=SIZE;
-    int front=0;
-    int rear=-1;
-    int count=0;
 
-public:
+
     Queue(int size = SIZE){ // constructor
         arr = new QueueEntry[size];
         capacity = size;

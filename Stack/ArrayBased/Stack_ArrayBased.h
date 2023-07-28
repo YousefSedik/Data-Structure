@@ -1,8 +1,6 @@
 //
 // Created by Yousef A. Azeem on 7/8/2023.
 //
-//#ifndef STACK_ARRAYBASED_H
-//#define STACK_ARRAYBASED_H
 
 #define MAXSIZE 1000
 #define StackEntry int
@@ -24,4 +22,3 @@ int size(Stack pt);
 void clear(Stack* pt);
 void traverse(Stack* pt, void (*pf)(StackEntry));
 
-//#endif  // STACK_ARRAYBASED_H
