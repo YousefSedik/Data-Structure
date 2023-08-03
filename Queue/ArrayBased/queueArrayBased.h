@@ -9,8 +9,8 @@ typedef struct queue{
 }Queue;
 
 void create_queue(Queue *qptr);
-void enqueu(Queue *qptr, QueueEntry data);
-void dequeue(Queue *qptr);
+int enqueu(Queue *qptr, QueueEntry data);
+int dequeue(Queue *qptr);
 int isempty();
 int isfull();
 int size();
