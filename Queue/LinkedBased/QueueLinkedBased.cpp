@@ -4,6 +4,8 @@
 
 #include "QueueLinkedBased.h"
 #include "iostream"
+
+using namespace std;
 void create_queue(Queue *ptr){
     ptr->rear = NULL ;
     ptr->front = NULL;
@@ -58,5 +60,9 @@ void travers(Queue*ptr, void *fun(QUEUEENTRY)) {
         fun(ne->data);
         ne = ne->next;
     }
+    fun(ne->data);
+    cout << '\n'; 
 }
-QUEUEENTRY peek(Queue *ptr);
+QUEUEENTRY peek(Queue *ptr){
+    return ptr->front->data;
+}

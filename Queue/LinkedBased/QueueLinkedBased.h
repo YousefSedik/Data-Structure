@@ -26,6 +26,6 @@ int isfull(Queue *ptr);
 int size(Queue *ptr);
 void clear_queue(Queue *ptr);
 void travers(Queue*ptr, void *fun(QUEUEENTRY));
-QUEUEENTRY peek();
+QUEUEENTRY peek(Queue *ptr);
 
 #endif //DS_QUEUELINKEDBASED_H
